@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="0" total="6" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-06T13:06:39 EST" name="Suite" finished-at="2025-12-06T13:08:04 EST" duration-ms="85596">
+    <groups>
+      <group name="Purchase">
+        <method signature="ECommerceTest.submitOrder(java.util.HashMap)[pri:0, instance:practiceProject.testng.ECommerceTest@5038d0b5]" name="submitOrder" class="practiceProject.testng.ECommerceTest"/>
+      </group> <!-- Purchase -->
+      <group name="NegativeTestCase">
+        <method signature="ErrorValidationsTest.loginErrorValidation()[pri:0, instance:practiceProject.testng.ErrorValidationsTest@7f284218]" name="loginErrorValidation" class="practiceProject.testng.ErrorValidationsTest"/>
+      </group> <!-- NegativeTestCase -->
+    </groups>
+    <test started-at="2025-12-06T13:06:39 EST" name="End To End Test" finished-at="2025-12-06T13:08:03 EST" duration-ms="83792">
+      <class name="practiceProject.testng.ECommerceTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:practiceProject.testng.ECommerceTest@5038d0b5]" started-at="2025-12-06T13:06:39 EST" name="launchApplication" finished-at="2025-12-06T13:06:46 EST" duration-ms="6876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:practiceProject.testng.ECommerceTest@5038d0b5]" started-at="2025-12-06T13:06:46 EST" name="submitOrder" data-provider="getData" finished-at="2025-12-06T13:07:18 EST" duration-ms="32140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Bharbun1, desiredCountry=United States, searchKeyword=unit, username=bharbun@email.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practiceProject.testng.ECommerceTest@5038d0b5]" started-at="2025-12-06T13:07:18 EST" name="tearDown" finished-at="2025-12-06T13:07:18 EST" duration-ms="422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:practiceProject.testng.ECommerceTest@5038d0b5]" started-at="2025-12-06T13:07:18 EST" name="launchApplication" finished-at="2025-12-06T13:07:26 EST" duration-ms="7228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:practiceProject.testng.ECommerceTest@5038d0b5]" started-at="2025-12-06T13:07:26 EST" name="submitOrder" data-provider="getData" finished-at="2025-12-06T13:07:50 EST" duration-ms="24600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Bharbun2, desiredCountry=India, searchKeyword=ind, username=bharbun2@email.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practiceProject.testng.ECommerceTest@5038d0b5]" started-at="2025-12-06T13:07:50 EST" name="tearDown" finished-at="2025-12-06T13:07:51 EST" duration-ms="451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:practiceProject.testng.ECommerceTest@5038d0b5]" started-at="2025-12-06T13:07:51 EST" name="launchApplication" finished-at="2025-12-06T13:07:58 EST" duration-ms="7641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="checkInOrderHistory()[pri:0, instance:practiceProject.testng.ECommerceTest@5038d0b5]" started-at="2025-12-06T13:07:58 EST" name="checkInOrderHistory" finished-at="2025-12-06T13:08:01 EST" depends-on-methods="practiceProject.testng.ECommerceTest.submitOrder" duration-ms="2911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInOrderHistory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practiceProject.testng.ECommerceTest@5038d0b5]" started-at="2025-12-06T13:08:01 EST" name="tearDown" finished-at="2025-12-06T13:08:03 EST" duration-ms="1194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- practiceProject.testng.ECommerceTest -->
+    </test> <!-- End To End Test -->
+    <test started-at="2025-12-06T13:06:39 EST" name="Error Validations Test" finished-at="2025-12-06T13:08:04 EST" duration-ms="85596">
+      <class name="practiceProject.testng.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:practiceProject.testng.ErrorValidationsTest@7f284218]" started-at="2025-12-06T13:06:39 EST" name="launchApplication" finished-at="2025-12-06T13:06:47 EST" duration-ms="8457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:practiceProject.testng.ErrorValidationsTest@7f284218]" started-at="2025-12-06T13:06:47 EST" name="loginErrorValidation" finished-at="2025-12-06T13:06:49 EST" duration-ms="1508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practiceProject.testng.ErrorValidationsTest@7f284218]" started-at="2025-12-06T13:06:49 EST" name="tearDown" finished-at="2025-12-06T13:06:49 EST" duration-ms="497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:practiceProject.testng.ErrorValidationsTest@7f284218]" started-at="2025-12-06T13:06:49 EST" name="launchApplication" finished-at="2025-12-06T13:06:57 EST" duration-ms="7741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method retried="true" signature="productErrorValidation()[pri:0, instance:practiceProject.testng.ErrorValidationsTest@7f284218]" started-at="2025-12-06T13:06:57 EST" name="productErrorValidation" finished-at="2025-12-06T13:07:35 EST" duration-ms="37540" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[IPHONE 13 PRO is not added to cart expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: IPHONE 13 PRO is not added to cart expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at practiceProject.testng.ErrorValidationsTest.productErrorValidation(ErrorValidationsTest.java:68)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practiceProject.testng.ErrorValidationsTest@7f284218]" started-at="2025-12-06T13:07:35 EST" name="tearDown" finished-at="2025-12-06T13:07:35 EST" duration-ms="475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:practiceProject.testng.ErrorValidationsTest@7f284218]" started-at="2025-12-06T13:07:35 EST" name="launchApplication" finished-at="2025-12-06T13:07:40 EST" duration-ms="5236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productErrorValidation()[pri:0, instance:practiceProject.testng.ErrorValidationsTest@7f284218]" started-at="2025-12-06T13:07:40 EST" name="productErrorValidation" finished-at="2025-12-06T13:08:03 EST" duration-ms="23040" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[ZARA COAT 3 is not added to cart expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: ZARA COAT 3 is not added to cart expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at practiceProject.testng.ErrorValidationsTest.productErrorValidation(ErrorValidationsTest.java:68)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practiceProject.testng.ErrorValidationsTest@7f284218]" started-at="2025-12-06T13:08:04 EST" name="tearDown" finished-at="2025-12-06T13:08:04 EST" duration-ms="602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- practiceProject.testng.ErrorValidationsTest -->
+    </test> <!-- Error Validations Test -->
+  </suite> <!-- Suite -->
+</testng-results>

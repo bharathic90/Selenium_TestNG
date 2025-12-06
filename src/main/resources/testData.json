@@ -1,0 +1,14 @@
+[
+	{
+		"username" : "bharbun@email.com",
+		"password" : "Bharbun1",
+		"searchKeyword" : "unit",
+		"desiredCountry" : "United States"
+	},
+	{
+		"username" : "bharbun2@email.com",
+		"password" : "Bharbun2",
+		"searchKeyword" : "ind",
+		"desiredCountry" : "India"
+	}
+]

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">-->
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="practiceProject.utils.Listeners"/>
+	</listeners>
+
+	<groups>
+		<run>
+			<include name="Purchase"/>
+		</run>
+	</groups>
+
+  <test thread-count="5" name="End To End Test">
+    <classes>
+      <class name="practiceProject.ECommerceTest"/>
+    </classes>
+  </test>
+  
+  <test thread-count="5" name="Error Validations Test">
+    <classes>
+      <class name="practiceProject.ErrorValidationsTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
