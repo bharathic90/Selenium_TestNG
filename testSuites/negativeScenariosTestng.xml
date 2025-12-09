@@ -10,13 +10,13 @@
 
   <test thread-count="5" name="End To End Test">
     <classes>
-      <class name="practiceProject.ECommerceTest"/>
+      <class name="practiceProject.testng.ECommerceTest"/>
     </classes>
   </test>
   
   <test thread-count="5" name="Error Validations Test">
     <classes>
-      <class name="practiceProject.ErrorValidationsTest"/>
+      <class name="practiceProject.testng.ErrorValidationsTest"/>
     </classes>
   </test> <!-- Test -->
   
